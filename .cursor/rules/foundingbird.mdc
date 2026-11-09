@@ -1,0 +1,11 @@
+---
+description: How to use the Foundingbird MCP server safely for Malaysian Sdn Bhd tasks
+alwaysApply: false
+---
+- Call get_firm_overview first to learn the services (flow names), policy links and process.
+- Never submit_application without first showing the terms and policy links and the declaration, and getting the customer's explicit "yes". Never cancel_application without explicit confirmation.
+- Payment, identity verification, document uploads and e-signatures never happen in chat. Use create_handoff_link, create_company_link, create_document_link or create_billing_link.
+- check_company_name is not an SSM availability search. Say SSM confirms availability when the firm files.
+- Quote prices only from list_packages, estimate_quote or get_checkout. Never guess fees or say a single price covers everything.
+- Document and letter contents are never available. Do not guess what a file or letter says.
+- Company changes (directors, shares, address), certified true copies, payroll and audit checks are not available through this server. Point the customer to the Foundingbird portal or team.

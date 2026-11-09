@@ -1,0 +1,23 @@
+{
+  "name": "foundingbird",
+  "displayName": "Foundingbird",
+  "description": "Start and run a Malaysian Sdn Bhd from your AI assistant: incorporation, company secretary switch, quotes, deadlines, documents and invoices.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Foundingbird Sdn Bhd",
+    "email": "hello@foundingbird.com"
+  },
+  "homepage": "https://foundingbird.com/my/mcp/",
+  "repository": "https://github.com/foundingbird/foundingbird-mcp",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "malaysia",
+    "sdn-bhd",
+    "company-secretary",
+    "ssm",
+    "incorporation",
+    "compliance",
+    "mcp"
+  ]
+}
