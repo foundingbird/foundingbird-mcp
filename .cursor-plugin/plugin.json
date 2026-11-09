@@ -1,8 +1,8 @@
 {
   "name": "foundingbird",
   "displayName": "Foundingbird",
-  "description": "Start and run a Malaysian Sdn Bhd from your AI assistant: incorporation, company secretary switch, quotes, deadlines, documents and invoices.",
-  "version": "1.0.0",
+  "description": "Incorporate and manage your Malaysian Sdn Bhd from your AI: incorporation, SSM documents, cosec requests and compliance deadlines.",
+  "version": "1.0.1",
   "author": {
     "name": "Foundingbird Sdn Bhd",
     "email": "hello@foundingbird.com"

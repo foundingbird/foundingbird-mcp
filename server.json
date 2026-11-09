@@ -2,10 +2,22 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.foundingbird/mcp",
   "title": "Foundingbird",
-  "description": "Start and run a Malaysian Sdn Bhd: quotes, applications, deadlines, documents and invoices.",
-  "version": "1.0.0",
+  "description": "Incorporate and manage your Malaysian Sdn Bhd from AI: SSM docs, cosec requests, deadlines.",
+  "version": "1.0.1",
   "websiteUrl": "https://foundingbird.com/my/mcp/",
+  "icons": [
+    {
+      "src": "https://foundingbird.com/assets/images/foundingbird-favicon-shield.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
   "remotes": [
-    { "type": "streamable-http", "url": "https://portal.foundingbird.com/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://portal.foundingbird.com/mcp"
+    }
   ]
 }
