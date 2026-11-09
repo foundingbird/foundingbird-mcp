@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.foundingbird/mcp",
+  "title": "Foundingbird",
+  "description": "Start and run a Malaysian Sdn Bhd: quotes, applications, deadlines, documents and invoices.",
+  "version": "1.0.0",
+  "websiteUrl": "https://foundingbird.com/my/mcp/",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://portal.foundingbird.com/mcp" }
+  ]
+}
