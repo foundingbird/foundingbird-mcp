@@ -1,25 +1,28 @@
 # Foundingbird MCP server
 
-**Start and run your Malaysian Sdn Bhd from your AI**
+![Foundingbird](assets/logo.png)
 
-Foundingbird connects your AI assistant to your Foundingbird account, so you can start and run a Malaysian private limited company (Sdn Bhd) in plain language. Qualified company secretaries prepare and file every submission.
+**Incorporate and manage your Malaysian Sdn Bhd from your AI**
+
+Foundingbird's MCP server lets you incorporate and manage your Malaysian Sdn Bhd straight from your AI assistant. Start a new incorporation, pull your SSM documents, make company secretary requests and keep on top of every compliance deadline, all backed by Foundingbird's licensed company secretaries. ID checks, e-signing and payments stay in the secure Foundingbird portal and app.
 
 **Server URL:** `https://portal.foundingbird.com/mcp` (remote, Streamable HTTP, OAuth)
 
 Connecting is free. You sign in with your Foundingbird account, and can create one when you connect. Services are charged at Foundingbird's [published prices](https://foundingbird.com/my/).
 
 ## What you can do
-- **Start a company:**
+- **Incorporate a Sdn Bhd:**
   - Check a proposed name against SSM's naming rules and see which words need an authority's approval. SSM confirms availability when we file.
   - Find MSIC codes, or review a drafted business description and codes.
   - Fill in and submit your incorporation application once you accept the terms.
 - **Switch your company secretary:** move an existing Sdn Bhd to Foundingbird. We contact your current secretary and collect your records.
-- **Prices and checkout:** see packages and add-ons, get a quote with one-time and recurring totals including tax, choose packages, and get a secure payment link.
+- **Packages and checkout:** see packages and add-ons with one-time and recurring totals including tax, choose packages, and get a secure payment link.
 - **Track your application:** see each step, whose move it is, and who still has to verify their identity or sign.
 - **Manage your company:**
   - See what needs you and your compliance deadlines, with the owner, what to do and the penalty for each.
   - Look up company particulars, directors and shareholders.
-  - Find Statutory Forms and Minutes Book documents.
+  - Pull SSM documents, Statutory Forms and Minutes Book documents.
+  - Make company secretary (cosec) requests.
   - See registered-office letters, e-signing requests, invoices and outstanding balances.
 
 Not available yet: company changes (directors, shares, address), certified true copies and SSM extracts. Request these in the Foundingbird portal.
@@ -54,8 +57,10 @@ Not available yet: company changes (directors, shares, address), certified true 
 3. "What's due for my company in the next 3 months, and whose job is each one?"
 4. "What's the status of my incorporation, and what do I still need to do?"
 5. "Switch my company's secretary to Foundingbird."
+6. "Get me the SSM documents for my company."
 
 ## What's in this repo
+- `assets/logo.png`: Foundingbird shield logo (512×512).
 - `mcp.json`, `.cursor/mcp.json`: the remote server config.
 - `.cursor-plugin/plugin.json`: the Cursor plugin manifest.
 - `skills/`: guided flows for incorporation, compliance deadlines and switching company secretary.
@@ -71,6 +76,7 @@ Not available yet: company changes (directors, shares, address), certified true 
 ## Support and links
 - Support: hello@foundingbird.com
 - MCP page: https://foundingbird.com/my/mcp/
+- Logo: https://foundingbird.com/assets/images/foundingbird-favicon-shield.png
 - Privacy: https://foundingbird.com/my/policies/privacy-policy/
 - Terms: https://foundingbird.com/my/policies/terms-of-service/
 
