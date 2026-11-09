@@ -3,11 +3,11 @@
   "name": "com.foundingbird/mcp",
   "title": "Foundingbird",
   "description": "Incorporate and manage your Malaysian Sdn Bhd from AI: SSM docs, cosec requests, deadlines.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://foundingbird.com/my/mcp/",
   "icons": [
     {
-      "src": "https://foundingbird.com/assets/images/foundingbird-favicon-shield.png",
+      "src": "https://raw.githubusercontent.com/foundingbird/foundingbird-mcp/main/assets/logo.png",
       "mimeType": "image/png",
       "sizes": [
         "512x512"
